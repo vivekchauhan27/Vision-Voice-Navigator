@@ -1,0 +1,564 @@
+{
+  "admin": [
+    {
+      "admin_name": "admin",
+      "admin_password": "1234",
+      "id": "cf67"
+    }
+  ],
+  "subject": [
+    {
+      "id": "1f3b",
+      "subject_name": "math"
+    }
+  ],
+  "Exam": [
+    {
+      "id": "6a3b",
+      "exam_name": "math",
+      "exam_desc": "math",
+      "exam_level": "deaf",
+      "exam_passMarks": "10",
+      "exam_totalQuestion": "3",
+      "exam_marks": "15",
+      "exam_date": "20-1-2024 19:36:12"
+    }
+  ],
+  "Question": [
+    {
+      "id": "1",
+      "question_name": "10-5 ?",
+      "option_one": "3",
+      "option_two": "1",
+      "option_three": "2",
+      "option_four": "5",
+      "question_answer": "5",
+      "exam_id": 1,
+      "subject_name": "Maths"
+    },
+    {
+      "id": "2",
+      "question_name": "10+5 ?",
+      "option_one": "3",
+      "option_two": "1",
+      "option_three": "4",
+      "option_four": "15",
+      "question_answer": "15",
+      "exam_id": 1,
+      "subject_name": "Maths"
+    },
+    {
+      "question_name": "10*5",
+      "option_one": "10",
+      "option_two": "5",
+      "option_three": "50",
+      "option_four": "2",
+      "question_answer": "50",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": "3"
+    },
+    {
+      "question_name": "110-10 ?",
+      "option_one": "110",
+      "option_two": "100",
+      "option_three": "10",
+      "option_four": "1",
+      "question_answer": "100",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": "4"
+    },
+    {
+      "question_name": "10/2 = ?",
+      "option_one": "1",
+      "option_two": "5",
+      "option_three": "10",
+      "option_four": "7",
+      "question_answer": "5",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": "5"
+    },
+    {
+      "id": "af44",
+      "question_name": "1+1",
+      "option_one": "2",
+      "option_two": "34",
+      "option_three": "5",
+      "option_four": "6",
+      "question_answer": "2",
+      "exam_id": "6a3b",
+      "subject_name": "math"
+    },
+    {
+      "id": "9dc6",
+      "question_name": "3+3",
+      "option_one": "6",
+      "option_two": "7",
+      "option_three": "4",
+      "option_four": "2",
+      "question_answer": "6",
+      "exam_id": "6a3b",
+      "subject_name": "math"
+    },
+    {
+      "id": "cfc9",
+      "question_name": "2+2",
+      "option_one": "3",
+      "option_two": "4",
+      "option_three": "5",
+      "option_four": "6",
+      "question_answer": "4",
+      "exam_id": "6a3b",
+      "subject_name": "math"
+    },
+    {
+      "id": "8aa1",
+      "question_name": "3+6",
+      "option_one": "8",
+      "option_two": "9",
+      "option_three": "1",
+      "option_four": "36",
+      "question_answer": "9",
+      "exam_id": "6a3b",
+      "subject_name": "math"
+    }
+  ],
+  "Result": [
+    {
+      "id": "1",
+      "result_status": "Pass",
+      "result_score": "3",
+      "user_email": "ram@gmail.com",
+      "exam_date": "12-23-12",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5"
+    },
+    {
+      "id": "2",
+      "result_status": "Pass",
+      "result_score": "3",
+      "user_email": "ram@gmail.com",
+      "exam_date": "12-23-12",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5"
+    },
+    {
+      "id": "3",
+      "result_status": "Pass",
+      "result_score": "3",
+      "user_email": "shiv@gmail.com",
+      "exam_date": "12-23-12",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5"
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 3,
+      "user_email": "ram@gmail.com",
+      "exam_date": "18-9-2021 20:49:39",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": "4"
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 4,
+      "user_email": "vishnu@gmail.com",
+      "exam_date": "19-9-2021 15:11:27",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": "5"
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 4,
+      "user_email": "agni@gmail.com",
+      "exam_date": "19-9-2021 15:20:37",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": "6"
+    },
+    {
+      "id": "ac0f",
+      "result_status": "Fail",
+      "result_score": 2,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "20-1-2024 19:51:48",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "20ad",
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "20-1-2024 19:52:21",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "4d27",
+      "result_status": "Pass",
+      "result_score": 3,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "20-1-2024 20:7:59",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "0410",
+      "result_status": "Pass",
+      "result_score": 3,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "20-1-2024 20:13:56",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "7634",
+      "result_status": "Pass",
+      "result_score": 3,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "20-1-2024 21:32:30",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "f09a",
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "21-1-2024 13:4:24",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "cdad",
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "21-1-2024 13:28:25",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "a9b5",
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "21-1-2024 13:28:32",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "b302",
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "21-1-2024 13:28:37",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "1b5d",
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "21-1-2024 16:11:59",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "4e56",
+      "result_status": "Pass",
+      "result_score": 3,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "22-1-2024 1:34:43",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "4922",
+      "result_status": "Fail",
+      "result_score": 2,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "22-1-2024 14:24:17",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "051a",
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "22-1-2024 15:1:12",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "c8d9",
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "22-1-2024 15:12:25",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "d0a8",
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "22-2-2024 0:49:43",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "32d2",
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "22-2-2024 16:24:57",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "169b",
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "23-2-2024 1:42:42",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "4a8f",
+      "result_status": "Pass",
+      "result_score": 3,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "24-2-2024 11:50:55",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "0773",
+      "result_status": "Pass",
+      "result_score": 3,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "6-4-2024 14:33:8",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "5cb7",
+      "result_status": "Pass",
+      "result_score": 3,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "6-4-2024 14:56:15",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "986b",
+      "result_status": "Fail",
+      "result_score": 1,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "7-4-2024 18:37:37",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "b97a",
+      "result_status": "Fail",
+      "result_score": 2,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "18-4-2024 13:9:12",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "88c9",
+      "result_status": "Pass",
+      "result_score": 3,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "19-4-2024 23:11:52",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "d088",
+      "result_status": "Pass",
+      "result_score": 4,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "20-4-2024 12:2:13",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "f574",
+      "result_status": "Pass",
+      "result_score": 3,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "20-4-2024 13:15:12",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "8236",
+      "result_status": "Pass",
+      "result_score": 4,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "20-4-2024 13:26:57",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "5601",
+      "result_status": "Fail",
+      "result_score": 1,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "29-5-2024 23:1:43",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "07d4",
+      "result_status": "Pass",
+      "result_score": 4,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "29-5-2024 23:6:46",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "9fff",
+      "result_status": "Pass",
+      "result_score": 4,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "29-5-2024 23:27:31",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    },
+    {
+      "id": "d6e5",
+      "result_status": "Pass",
+      "result_score": 4,
+      "user_email": "vivek@gmail.com",
+      "exam_date": "30-5-2024 14:56:21",
+      "exam_name": "math",
+      "total_marks": "5",
+      "exam_id": "6a3b",
+      "total_Question": "5"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "user_name": "ram",
+      "user_email": "ram@gmail.com",
+      "user_password": "1234"
+    },
+    {
+      "id": "2",
+      "user_name": "shiv",
+      "user_email": "shiv@gmail.com",
+      "user_password": "1234"
+    },
+    {
+      "user_name": "Vishnu",
+      "user_email": "vishnu@gmail.com",
+      "user_password": "123",
+      "id": "3"
+    },
+    {
+      "user_name": "Agni",
+      "user_email": "agni@gmail.com",
+      "user_password": "123",
+      "id": "4"
+    },
+    {
+      "id": "5c1a",
+      "user_name": "vivek",
+      "user_email": "vivek@gmail.com",
+      "user_password": "1234"
+    },
+    {
+      "id": "1e80",
+      "user_name": "anup",
+      "user_email": "anup@gmail.com",
+      "user_password": "1234"
+    }
+  ]
+}
